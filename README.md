@@ -1,2 +1,2 @@
-# midpoint-synchronizer
-Tool for using a common midpoint to synchronize filesystem
+# msync
+synchronize directory through an intermediate storage device
