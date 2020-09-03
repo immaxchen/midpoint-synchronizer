@@ -1,13 +1,13 @@
 from setuptools import setup
 
 setup(
-    name='msync',
+    name='xsync',
     version='0.0.1',
-    py_modules=['msync'],
+    py_modules=['xsync'],
     python_requires='>=3.2',
     entry_points={
         "console_scripts": [
-            "msync = msync:main",
+            "xsync = xsync:main",
         ],
     },
 )

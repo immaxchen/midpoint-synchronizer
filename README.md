@@ -1,4 +1,4 @@
-# msync
+# xsync
 
 synchronize directory through an intermediate storage device
 
@@ -9,8 +9,8 @@ it is a cross-platform command line tool and requires python >= 3.2
 # Installation
 
 ```shell
-$ git clone https://github.com/immaxchen/msync.git
-$ cd msync
+$ git clone https://github.com/immaxchen/xsync.git
+$ cd xsync
 $ pip install .
 ```
 
@@ -19,13 +19,13 @@ $ pip install .
 [PC1]
 ```shell
 $ mount nas:/sharedfolder /mnt
-$ msync request myproj/ /mnt
+$ xsync request myproj/ /mnt
 ```
 
 [PC2]
 ```shell
 $ mount nas:/sharedfolder /mnt
-$ msync respond /mnt/myproj.mreq myproj/
+$ xsync respond /mnt/myproj.xsync myproj/
 ```
 
 [PC1]
